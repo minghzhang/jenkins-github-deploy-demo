@@ -16,4 +16,9 @@ public class HelloController {
     public String say(@RequestParam("name") String name) {
         return "Hello " + name + " !";
     }
+
+    @GetMapping("/sayNew")
+    public String sayNew(@RequestParam("name") String name) {
+        return "Hello  new" + name + " !";
+    }
 }
