@@ -22,6 +22,6 @@ public class WelcomeController {
     @GetMapping("/test")
     public String testRedirect() {
 
-        return "YES";
+        return "YES Welcome Test";
     }
 }
